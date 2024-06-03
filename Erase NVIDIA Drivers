@@ -1,0 +1,2 @@
+# Erasing NVIDIA drivers for reinstallation purposes
+dnf erase *nvidia*
