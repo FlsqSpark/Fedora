@@ -28,5 +28,8 @@ modinfo -F version nvidia
 #recheck modules are built
 sudo akmods --force 
 
-recheck boot image update
+#recheck boot image update
 sudo dracut --force 
+
+#enrolling the actual MOK key
+sudo mokutil --import /etc/pki/akmods/certs/public_key.der
