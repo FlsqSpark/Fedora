@@ -1,5 +1,9 @@
+#!/bin/bash
+
 # Copy monitor configuration file to GDM
+
+
 sudo cp ~/.config/monitors.xml ~gdm/.config/monitors.xml
 
 # Change ownership
- sudo chown gdm:gdm ~gdm/.config/monitors.xml^C
+ sudo chown gdm:gdm ~gdm/.config/monitors.xml
